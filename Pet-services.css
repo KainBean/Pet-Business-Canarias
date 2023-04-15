@@ -1,0 +1,156 @@
+/* Add some basic styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Images/sea-background.avif');
+    background-size: cover;
+}
+
+header {
+    background-color: #FFC857;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #FFC857;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-shadow: 1px 1px #000;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+address {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 1px 1px #000;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form input[type="submit"] {
+    background-color: #fff;
+    color: #FFC857;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Add some responsive design */
+@media (max-width: 768px) {
+    main {
+      padding: 10px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    form label {
+      font-size: 16px;
+    }
+    form input, form textarea {
+      font-size: 14px;
+    }
+    form input[type="submit"] {
+      font-size: 14px;
+      padding: 5px 10px;
+    }
+} 
+header {
+    background-color: #F9CB9C;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #fff;
+    color: #F9CB9C;
+  }
+  
